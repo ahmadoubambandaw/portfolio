@@ -66,6 +66,22 @@ window.addEventListener('scroll', () => {
   })
 })
 
+// Contact form: client-side validation for Netlify Forms (no mailto)
+const contactForm = document.getElementById('contactForm')
+if (contactForm) {
+  contactForm.addEventListener('submit', (event) => {
+    const name = document.getElementById('contactName').value.trim()
+    const email = document.getElementById('contactEmail').value.trim()
+    const message = document.getElementById('contactMessage').value.trim()
+
+    if (!name || !email || !message) {
+      event.preventDefault()
+      alert('Merci de remplir tous les champs avant d’envoyer.')
+    }
+    // Let the form submit normally to Netlify when validation passes
+  })
+}
+
 // MODAL DATA
 const projects = {
   eventpass: {
