@@ -225,7 +225,7 @@ const projects = {
     title: 'Boutique — Headless Commerce SaaS',
     desc: "Plateforme e-commerce multi-tenant qui permet aux marchands de connecter leur boutique Shopify et d'obtenir une vitrine premium ultra-rapide, sans duplication de données (Shopify reste la source de vérité). Catalogue, filtres avancés, panier temps réel, comptes clients, wishlist, recherche instantanée, dashboard analytics et facturation Stripe.",
     stack: ['Next.js 15', 'React 19', 'TypeScript', 'Tailwind v4', 'Stripe', 'Shopify API'],
-    demo: null,
+    demo: 'https://boutique-ecommerce-t4k8.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/Boutique-Ecommerce-',
     preview: 'Boutique',
     cover: 'assets/covers/boutique.jpg',
