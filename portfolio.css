@@ -647,6 +647,23 @@ nav {
   background: rgba(255, 255, 255, 0.06);
   flex: 1;
 }
+.feature-shot {
+  position: relative;
+  z-index: 1;
+  border-radius: 16px;
+  background: #0f0b22;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.35);
+}
+.feature-shot .mock-dots {
+  margin-bottom: 10px;
+}
+.feature-shot img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
 
 /* ---------- Tools ---------- */
 #tools {

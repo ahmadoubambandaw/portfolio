@@ -204,7 +204,7 @@ const projects = {
     demo: 'https://erp-saa-s-swart.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/ERP-SaaS',
     preview: 'Naatal ERP',
-    cover: 'assets/covers/naatal.jpg',
+    cover: 'assets/covers/naatal.png',
     grad: 'linear-gradient(135deg,#171233,#4a2fd0)',
   },
   koligo: {
