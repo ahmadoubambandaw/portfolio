@@ -204,7 +204,7 @@ const projects = {
     demo: 'https://erp-saa-s-swart.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/ERP-SaaS',
     preview: 'Naatal ERP',
-    cover: 'assets/covers/naatal.png',
+    cover: 'assets/covers/naatal.jpg',
     grad: 'linear-gradient(135deg,#171233,#4a2fd0)',
   },
   koligo: {
@@ -216,7 +216,7 @@ const projects = {
     demo: null,
     github: 'https://github.com/bamba-Tech04/colima',
     preview: 'KoliGo',
-    cover: 'assets/covers/koligo.png',
+    cover: 'assets/covers/koligo.jpg',
     grad: 'linear-gradient(135deg,#6c47ff,#8b6eff)',
   },
   boutique: {
@@ -228,7 +228,7 @@ const projects = {
     demo: 'https://boutique-ecommerce-t4k8.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/Boutique-Ecommerce-',
     preview: 'Boutique',
-    cover: 'assets/covers/boutique.png',
+    cover: 'assets/covers/boutique.jpg',
     grad: 'linear-gradient(135deg,#5b34f0,#9d7bff)',
   },
   scolaris: {
@@ -239,7 +239,7 @@ const projects = {
     demo: 'https://concours-rose.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/concours',
     preview: 'Scolaris',
-    cover: 'assets/covers/scolaris.png',
+    cover: 'assets/covers/scolaris.jpg',
     grad: 'linear-gradient(135deg,#6c47ff,#00b8d4)',
   },
   ndawresto: {
@@ -250,7 +250,7 @@ const projects = {
     demo: 'https://reservation-nine-beta.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/reservation',
     preview: 'Ndaw-Resto',
-    cover: 'assets/covers/ndawresto.png',
+    cover: 'assets/covers/ndawresto.jpg',
     grad: 'linear-gradient(135deg,#e0555a,#7c5cfc)',
   },
   teranga: {
@@ -261,7 +261,7 @@ const projects = {
     demo: 'https://terangashein.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/Teranga-mode',
     preview: 'Teranga Shein',
-    cover: 'assets/covers/teranga.png',
+    cover: 'assets/covers/teranga.jpg',
     grad: 'linear-gradient(135deg,#9d7bff,#e0555a)',
   },
   eventpass: {
@@ -272,19 +272,8 @@ const projects = {
     demo: null,
     github: 'https://github.com/ahmadoubambandaw/Evenpass',
     preview: 'EventPass',
-    cover: 'assets/covers/eventpass.png',
+    cover: 'assets/covers/eventpass.jpg',
     grad: 'linear-gradient(135deg,#171233,#3a2a7a)',
-  },
-  chariow: {
-    cat: 'E-commerce · Produits digitaux',
-    title: 'Chariow Store',
-    desc: 'Boutique en ligne de produits digitaux (ebooks, templates, guides) ciblant les entrepreneurs africains. Interface moderne avec système de paiement intégré, catalogue de produits et téléchargement automatique après achat.',
-    stack: ['WordPress', 'WooCommerce', 'Figma', 'PHP', 'MySQL'],
-    demo: 'https://chariow.com',
-    github: null,
-    preview: 'Chariow',
-    cover: 'assets/covers/chariow.png',
-    grad: 'linear-gradient(135deg,#8b6eff,#b49bff)',
   },
   verus: {
     cat: 'Site vitrine · BTP',
@@ -294,7 +283,7 @@ const projects = {
     demo: 'https://verusbtp.netlify.app',
     github: 'https://github.com/bamba-Tech04/verus-btp',
     preview: 'Verus BTP',
-    cover: 'assets/covers/verus.png',
+    cover: 'assets/covers/verus.jpg',
     grad: 'linear-gradient(135deg,#5b34f0,#8b6eff)',
   },
   buildpro: {
@@ -305,7 +294,7 @@ const projects = {
     demo: 'https://harmonious-twilight-0a481a.netlify.app',
     github: null,
     preview: 'BuildPro',
-    cover: 'assets/covers/buildpro.png',
+    cover: 'assets/covers/buildpro.jpg',
     grad: 'linear-gradient(135deg,#6c47ff,#9d7bff)',
   },
   dakardeco: {
@@ -316,7 +305,7 @@ const projects = {
     demo: 'https://dakardeco.netlify.app',
     github: null,
     preview: 'DakarDéco',
-    cover: 'assets/covers/dakardeco.png',
+    cover: 'assets/covers/dakardeco.jpg',
     grad: 'linear-gradient(135deg,#7c5cfc,#a98bff)',
   },
   trackisen: {
@@ -327,7 +316,7 @@ const projects = {
     demo: null,
     github: null,
     preview: 'Trackisen',
-    cover: 'assets/covers/trackisen.png',
+    cover: 'assets/covers/trackisen.jpg',
     grad: 'linear-gradient(135deg,#4a2fd0,#7c5cfc)',
   },
 }
@@ -340,7 +329,6 @@ const projectOrder = [
   'ndawresto',
   'teranga',
   'eventpass',
-  'chariow',
   'verus',
   'buildpro',
   'dakardeco',
@@ -355,7 +343,7 @@ function renderProjectCards() {
       const p = projects[id]
       const badge = p.isNew ? '<span class="tag-new">NOUVEAU</span>' : ''
       const coverImg = p.cover
-        ? `<img class="project-cover" src="${p.cover}" alt="Aperçu ${p.title}" loading="lazy" onerror="this.remove()">`
+        ? `<img class="project-cover" src="${p.cover}" alt="Aperçu ${p.title}" width="1200" height="750" loading="lazy" decoding="async" onerror="this.remove()">`
         : ''
       return `
       <article class="project-card" data-project-id="${id}">
