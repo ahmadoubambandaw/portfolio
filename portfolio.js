@@ -195,6 +195,18 @@ renderTools()
    DATA — Projets
    ============================================================ */
 const projects = {
+  naatal: {
+    cat: 'SaaS · ERP multi-tenant',
+    isNew: true,
+    title: 'Naatal — ERP SaaS pour PME africaines',
+    desc: "ERP SaaS modulaire et multi-tenant pensé pour les PME d'Afrique subsaharienne et du Maghreb. 8 modules métiers : comptabilité conforme SYSCOHADA, facturation, gestion de stock, RH & paie, CRM et gestion de projet. Gère plusieurs devises africaines et le mobile money, avec un mode hors-ligne pour les zones à faible connectivité.",
+    stack: ['Next.js', 'React', 'Node.js', 'PostgreSQL', 'TypeScript', 'Mobile Money'],
+    demo: 'https://erp-saa-s-swart.vercel.app',
+    github: 'https://github.com/ahmadoubambandaw/ERP-SaaS',
+    preview: 'Naatal ERP',
+    cover: 'assets/covers/naatal.jpg',
+    grad: 'linear-gradient(135deg,#171233,#4a2fd0)',
+  },
   koligo: {
     cat: 'App Web · Logistique',
     isNew: true,
@@ -204,7 +216,53 @@ const projects = {
     demo: null,
     github: 'https://github.com/bamba-Tech04/colima',
     preview: 'KoliGo',
+    cover: 'assets/covers/koligo.jpg',
     grad: 'linear-gradient(135deg,#6c47ff,#8b6eff)',
+  },
+  boutique: {
+    cat: 'SaaS · Headless Commerce',
+    isNew: true,
+    title: 'Boutique — Headless Commerce SaaS',
+    desc: "Plateforme e-commerce multi-tenant qui permet aux marchands de connecter leur boutique Shopify et d'obtenir une vitrine premium ultra-rapide, sans duplication de données (Shopify reste la source de vérité). Catalogue, filtres avancés, panier temps réel, comptes clients, wishlist, recherche instantanée, dashboard analytics et facturation Stripe.",
+    stack: ['Next.js 15', 'React 19', 'TypeScript', 'Tailwind v4', 'Stripe', 'Shopify API'],
+    demo: null,
+    github: 'https://github.com/ahmadoubambandaw/Boutique-Ecommerce-',
+    preview: 'Boutique',
+    cover: 'assets/covers/boutique.jpg',
+    grad: 'linear-gradient(135deg,#5b34f0,#9d7bff)',
+  },
+  scolaris: {
+    cat: 'SaaS · Gestion scolaire',
+    title: 'Scolaris — ERP de gestion scolaire',
+    desc: "Plateforme ERP cloud pour les écoles africaines et francophones : gestion pédagogique, financière et administrative. Tableaux de bord temps réel, détection des élèves à risque par IA, facturation automatisée, pointage par QR code et communication multicanale (email, SMS, WhatsApp). 13 rôles utilisateurs avec isolation complète des données.",
+    stack: ['Next.js 14', 'React 18', 'Node.js', 'Express', 'PostgreSQL'],
+    demo: 'https://concours-rose.vercel.app',
+    github: 'https://github.com/ahmadoubambandaw/concours',
+    preview: 'Scolaris',
+    cover: 'assets/covers/scolaris.jpg',
+    grad: 'linear-gradient(135deg,#6c47ff,#00b8d4)',
+  },
+  ndawresto: {
+    cat: 'SaaS · Restaurant OS',
+    title: 'Ndaw-Resto — Restaurant OS',
+    desc: "Plateforme SaaS « Restaurant OS » complète : réservations, caisse (POS), gestion de cuisine (Kitchen Display), stock, CRM, comptabilité, marketing et reporting, activés par abonnement. Architecture modulaire multi-tenant avec API Laravel partagée (web Next.js, mobile Flutter à venir), programmes de fidélité et sites personnalisés avec domaine sur mesure.",
+    stack: ['Laravel 13', 'Next.js', 'PostgreSQL', 'Redis', 'Multi-tenant'],
+    demo: 'https://reservation-nine-beta.vercel.app',
+    github: 'https://github.com/ahmadoubambandaw/reservation',
+    preview: 'Ndaw-Resto',
+    cover: 'assets/covers/ndawresto.jpg',
+    grad: 'linear-gradient(135deg,#e0555a,#7c5cfc)',
+  },
+  teranga: {
+    cat: 'E-commerce · Mode',
+    title: 'Teranga Shein — Boutique mode',
+    desc: "Boutique e-commerce de mode inspirée de Shein, pensée pour le marché sénégalais : catalogue de vêtements et accessoires, navigation fluide et commande en ligne. Vitrine moderne et responsive déployée sur Vercel.",
+    stack: ['HTML', 'CSS', 'JavaScript', 'Vercel'],
+    demo: 'https://terangashein.vercel.app',
+    github: 'https://github.com/ahmadoubambandaw/Teranga-mode',
+    preview: 'Teranga Shein',
+    cover: 'assets/covers/teranga.jpg',
+    grad: 'linear-gradient(135deg,#9d7bff,#e0555a)',
   },
   eventpass: {
     cat: "Plateforme · Contrôle d'accès",
@@ -212,8 +270,9 @@ const projects = {
     desc: "Plateforme complète de gestion et contrôle d'accès aux événements privés au Sénégal. Validation QR en temps réel, tableau de bord admin, gestion multi-rôles (admin, organisateur, agent de sécurité). Notifications live via Socket.io, authentification JWT sécurisée.",
     stack: ['React', 'Node.js', 'Express', 'SQLite', 'Socket.io', 'JWT'],
     demo: null,
-    github: 'https://github.com/bamba-Tech04',
+    github: 'https://github.com/ahmadoubambandaw/Evenpass',
     preview: 'EventPass',
+    cover: 'assets/covers/eventpass.jpg',
     grad: 'linear-gradient(135deg,#171233,#3a2a7a)',
   },
   chariow: {
@@ -224,6 +283,7 @@ const projects = {
     demo: 'https://chariow.com',
     github: null,
     preview: 'Chariow',
+    cover: 'assets/covers/chariow.jpg',
     grad: 'linear-gradient(135deg,#8b6eff,#b49bff)',
   },
   verus: {
@@ -234,6 +294,7 @@ const projects = {
     demo: 'https://verusbtp.netlify.app',
     github: 'https://github.com/bamba-Tech04/verus-btp',
     preview: 'Verus BTP',
+    cover: 'assets/covers/verus.jpg',
     grad: 'linear-gradient(135deg,#5b34f0,#8b6eff)',
   },
   buildpro: {
@@ -244,6 +305,7 @@ const projects = {
     demo: 'https://harmonious-twilight-0a481a.netlify.app',
     github: null,
     preview: 'BuildPro',
+    cover: 'assets/covers/buildpro.jpg',
     grad: 'linear-gradient(135deg,#6c47ff,#9d7bff)',
   },
   dakardeco: {
@@ -254,6 +316,7 @@ const projects = {
     demo: 'https://dakardeco.netlify.app',
     github: null,
     preview: 'DakarDéco',
+    cover: 'assets/covers/dakardeco.jpg',
     grad: 'linear-gradient(135deg,#7c5cfc,#a98bff)',
   },
   trackisen: {
@@ -264,12 +327,19 @@ const projects = {
     demo: null,
     github: null,
     preview: 'Trackisen',
+    cover: 'assets/covers/trackisen.jpg',
     grad: 'linear-gradient(135deg,#4a2fd0,#7c5cfc)',
   },
 }
 
+// Naatal est mis en avant dans la section "étude de cas", donc pas dans la grille
 const projectOrder = [
   'koligo',
+  'boutique',
+  'scolaris',
+  'ndawresto',
+  'teranga',
+  'eventpass',
   'chariow',
   'verus',
   'buildpro',
@@ -284,10 +354,14 @@ function renderProjectCards() {
     .map((id) => {
       const p = projects[id]
       const badge = p.isNew ? '<span class="tag-new">NOUVEAU</span>' : ''
+      const coverImg = p.cover
+        ? `<img class="project-cover" src="${p.cover}" alt="Aperçu ${p.title}" loading="lazy" onerror="this.remove()">`
+        : ''
       return `
       <article class="project-card" data-project-id="${id}">
         <div class="project-thumb" style="background:${p.grad}">
           <span class="th-label">${p.preview}</span>
+          ${coverImg}
         </div>
         <div class="project-body">
           <div class="project-cat">${p.cat} ${badge}</div>
@@ -324,8 +398,11 @@ function openModal(id) {
     ? `<a class="btn btn-outline" href="${p.github}" target="_blank" rel="noopener">⌨️ Code GitHub</a>`
     : ''
 
+  const coverImg = p.cover
+    ? `<img src="${p.cover}" alt="Aperçu ${p.title}" onerror="this.remove()">`
+    : ''
   document.getElementById('modal-content').innerHTML = `
-    <div class="modal-preview" style="background:${p.grad}">${p.preview}</div>
+    <div class="modal-preview" style="background:${p.grad}">${p.preview}${coverImg}</div>
     <div class="modal-body">
       <div class="modal-cat">${p.cat}</div>
       <h3>${p.title}</h3>

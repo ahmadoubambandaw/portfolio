@@ -732,6 +732,15 @@ nav {
   text-align: center;
   padding: 0 16px;
 }
+.project-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  z-index: 2;
+}
 .project-body {
   padding: 30px 32px;
   display: flex;
@@ -1114,7 +1123,7 @@ footer {
   transform: rotate(90deg);
 }
 .modal-preview {
-  height: 170px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1122,6 +1131,16 @@ footer {
   font-size: 1.9rem;
   font-weight: 800;
   letter-spacing: 0.02em;
+  position: relative;
+  overflow: hidden;
+}
+.modal-preview img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
 }
 .modal-body {
   padding: 30px 34px 34px;
