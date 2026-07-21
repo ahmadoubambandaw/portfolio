@@ -11,15 +11,15 @@ Noms de fichiers attendus (un par projet) :
 
 | Projet              | Fichier            |
 | ------------------- | ------------------ |
-| Naatal (ERP SaaS)   | `naatal.jpg`       |
-| KoliGo              | `koligo.jpg`       |
-| Boutique (Headless) | `boutique.jpg`     |
-| Scolaris            | `scolaris.jpg`     |
-| Ndaw-Resto          | `ndawresto.jpg`    |
-| Teranga Shein       | `teranga.jpg`      |
-| EventPass           | `eventpass.jpg`    |
-| Chariow Store       | `chariow.jpg`      |
-| Verus BTP           | `verus.jpg`        |
-| BuildPro BTP        | `buildpro.jpg`     |
-| DakarDéco           | `dakardeco.jpg`    |
-| Trackisen           | `trackisen.jpg`    |
+| Naatal (ERP SaaS)   | `naatal.png`       |
+| KoliGo              | `koligo.png`       |
+| Boutique (Headless) | `boutique.png`     |
+| Scolaris            | `scolaris.png`     |
+| Ndaw-Resto          | `ndawresto.png`    |
+| Teranga Shein       | `teranga.png`      |
+| EventPass           | `eventpass.png`    |
+| Chariow Store       | `chariow.png`      |
+| Verus BTP           | `verus.png`        |
+| BuildPro BTP        | `buildpro.png`     |
+| DakarDéco           | `dakardeco.png`    |
+| Trackisen           | `trackisen.png`    |

@@ -216,7 +216,7 @@ const projects = {
     demo: null,
     github: 'https://github.com/bamba-Tech04/colima',
     preview: 'KoliGo',
-    cover: 'assets/covers/koligo.jpg',
+    cover: 'assets/covers/koligo.png',
     grad: 'linear-gradient(135deg,#6c47ff,#8b6eff)',
   },
   boutique: {
@@ -228,7 +228,7 @@ const projects = {
     demo: 'https://boutique-ecommerce-t4k8.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/Boutique-Ecommerce-',
     preview: 'Boutique',
-    cover: 'assets/covers/boutique.jpg',
+    cover: 'assets/covers/boutique.png',
     grad: 'linear-gradient(135deg,#5b34f0,#9d7bff)',
   },
   scolaris: {
@@ -239,7 +239,7 @@ const projects = {
     demo: 'https://concours-rose.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/concours',
     preview: 'Scolaris',
-    cover: 'assets/covers/scolaris.jpg',
+    cover: 'assets/covers/scolaris.png',
     grad: 'linear-gradient(135deg,#6c47ff,#00b8d4)',
   },
   ndawresto: {
@@ -250,7 +250,7 @@ const projects = {
     demo: 'https://reservation-nine-beta.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/reservation',
     preview: 'Ndaw-Resto',
-    cover: 'assets/covers/ndawresto.jpg',
+    cover: 'assets/covers/ndawresto.png',
     grad: 'linear-gradient(135deg,#e0555a,#7c5cfc)',
   },
   teranga: {
@@ -261,7 +261,7 @@ const projects = {
     demo: 'https://terangashein.vercel.app',
     github: 'https://github.com/ahmadoubambandaw/Teranga-mode',
     preview: 'Teranga Shein',
-    cover: 'assets/covers/teranga.jpg',
+    cover: 'assets/covers/teranga.png',
     grad: 'linear-gradient(135deg,#9d7bff,#e0555a)',
   },
   eventpass: {
@@ -272,7 +272,7 @@ const projects = {
     demo: null,
     github: 'https://github.com/ahmadoubambandaw/Evenpass',
     preview: 'EventPass',
-    cover: 'assets/covers/eventpass.jpg',
+    cover: 'assets/covers/eventpass.png',
     grad: 'linear-gradient(135deg,#171233,#3a2a7a)',
   },
   chariow: {
@@ -283,7 +283,7 @@ const projects = {
     demo: 'https://chariow.com',
     github: null,
     preview: 'Chariow',
-    cover: 'assets/covers/chariow.jpg',
+    cover: 'assets/covers/chariow.png',
     grad: 'linear-gradient(135deg,#8b6eff,#b49bff)',
   },
   verus: {
@@ -294,7 +294,7 @@ const projects = {
     demo: 'https://verusbtp.netlify.app',
     github: 'https://github.com/bamba-Tech04/verus-btp',
     preview: 'Verus BTP',
-    cover: 'assets/covers/verus.jpg',
+    cover: 'assets/covers/verus.png',
     grad: 'linear-gradient(135deg,#5b34f0,#8b6eff)',
   },
   buildpro: {
@@ -305,7 +305,7 @@ const projects = {
     demo: 'https://harmonious-twilight-0a481a.netlify.app',
     github: null,
     preview: 'BuildPro',
-    cover: 'assets/covers/buildpro.jpg',
+    cover: 'assets/covers/buildpro.png',
     grad: 'linear-gradient(135deg,#6c47ff,#9d7bff)',
   },
   dakardeco: {
@@ -316,7 +316,7 @@ const projects = {
     demo: 'https://dakardeco.netlify.app',
     github: null,
     preview: 'DakarDéco',
-    cover: 'assets/covers/dakardeco.jpg',
+    cover: 'assets/covers/dakardeco.png',
     grad: 'linear-gradient(135deg,#7c5cfc,#a98bff)',
   },
   trackisen: {
@@ -327,7 +327,7 @@ const projects = {
     demo: null,
     github: null,
     preview: 'Trackisen',
-    cover: 'assets/covers/trackisen.jpg',
+    cover: 'assets/covers/trackisen.png',
     grad: 'linear-gradient(135deg,#4a2fd0,#7c5cfc)',
   },
 }
